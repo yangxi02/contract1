@@ -176,6 +176,11 @@ public class Contract {
     @Column(name = "customer")
     private String  customerName ;
 
+
+
+    @Column(name = "phone")
+    private String  phone ;
+
     /**
      * 是否删除
      */
