@@ -173,6 +173,14 @@ public class Contract {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
+    @Column(name = "customer")
+    private String  customerName ;
+
+
+
+    @Column(name = "phone")
+    private String  phone ;
+
     /**
      * 是否删除
      */
